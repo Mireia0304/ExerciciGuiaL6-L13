@@ -1,0 +1,40 @@
+
+SERVER
+Log in y log out--> server envia la lista de conectados automáticamente
+No boton Dame Conectados, cliente no solicita
+SERVER envia notificaciones (lista conectados) al cliente
+Otras notificaciones tb: invitación para jugar una partida, cliente no lo solicita
+
+PROBLEMAS
+
+-Puertos
+-Nombre BBDD
+
+PROGRAMA EN ENTORNO DE PRODUCCIÓN
+PUERTOS G12: 50085, 50086, 50087
+
+Aules:
+Mireia: G1 (groc), V1 (vermell)
+Aida: B1(blau), Sala d'actes (bomba, rosa) (Amb les cadires)
+Andrea: Drones (lila), 27-3 (taronja), 28 (verd)
+
+Cada sala té assignat un color (label sala), quan acompleixes la missió et dona un número.
+Setmana que ve
+Consergería?
+Dame una Pista porfavor, qué clase quieres? DataGrid
+
+Miguel-->video (2 variants)
+
+
+
+
+Groc Vermell Blau Lila Taronja Verd Rosa
+ 7      3     2     4     1     6    5
+
+
+
+Altres coses a fer:
+ListaConectados--> DataGrid
+Revisar totes les protección del MUTEX
+Revisar el tema de que la Llista no es faci al LogIn (separar-ho)
+
